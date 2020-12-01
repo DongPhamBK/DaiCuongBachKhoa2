@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="16dp"
+
+    tools:context=".QuizActivity">
+
+
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:freezesText="true"
+        android:text="Điểm: "
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtQuestionCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtScore"
+        android:freezesText="true"
+        android:text="Câu hỏi: 1/x "
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtCountDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:freezesText="true"
+        android:text="00:30"
+        android:textSize="40dp" />
+
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/radGroup"
+        android:layout_marginBottom="16dp"
+        android:freezesText="true"
+        android:text="Bạn thử đọc câu hỏi xem nào !\n Ok\n ok"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/radGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <RadioButton
+            android:id="@+id/radButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:text="Option 1" />
+
+        <RadioButton
+            android:id="@+id/radButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:text="Option 2" />
+
+        <RadioButton
+            android:id="@+id/radButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:text="Option 3" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnConfirmNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radGroup"
+        android:layout_marginTop="16dp"
+
+        android:background="#CBE6E3"
+        android:freezesText="true"
+        android:text="Xác nhận" />
+
+
+</RelativeLayout>

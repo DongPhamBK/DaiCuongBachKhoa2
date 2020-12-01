@@ -1,0 +1,4 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_point" type="drawable">@drawable/ic_muctieu</item>
+    <!--Khai báo mấy cái biểu tượng thôi mà !-->
+</resources>

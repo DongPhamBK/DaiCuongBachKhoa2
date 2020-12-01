@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dsdethilya1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6ECD9"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.vatly1.VatLy1DeThiFragment">
+
+    <Button
+        android:id="@+id/btnVatLyDe1"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_button"
+        android:text="Đề 1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnVatLyDe2"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_button"
+        android:text="Đề 2"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnVatLyDe3"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_button"
+        android:text="Đề 3"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnVatLyDe4"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_button"
+        android:text="Đề 4"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnVatLyDe5"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_button"
+        android:text="Đề 5"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

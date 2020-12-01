@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="676dp"
+        android:background="#E3DBC8"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E3DBC8"
+            android:src="@drawable/logobk" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="CHỌN MÔN HỌC"
+            android:textColor="#1B0101"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnDaiSo"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/art_rim"
+            android:text="ĐẠI SỐ"
+            android:textColor="#EDE9E9" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnVatLy1"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/art_rim"
+            android:text="VẬT LÍ ĐẠI CƯƠNG 1"
+            android:textColor="#EDE9E9" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnGiaiTich1"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/art_rim"
+            android:text="Giải tích 1"
+            android:textColor="#EDE9E9" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnGiaiTich2"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/art_rim"
+            android:text="Giải tích 2"
+            android:textColor="#EDE9E9" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="MỘT TÌNH YÊU, MỘT TƯƠNG LAI"
+            android:textColor="#AA1B3C" />
+
+    </LinearLayout>
+</LinearLayout>

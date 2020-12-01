@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vatlya1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.vatly1.VatLy1Fragment">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="VẬT LÝ 1"
+        android:textColor="#D6C06C"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btnVatLy1LyThuyet"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_button"
+        android:text="Lý thuyết"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnVatLy1OnTap"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_button"
+        android:text=" Kiểm tra nhanh kiến thức"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnVatLy1BaiTap"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_button"
+        android:text="Bài tập"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnVatLy1TracNghiem"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_button"
+        android:text="Câu hỏi trắc nghiệm"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnVatLy1DeThi"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_button"
+        android:text="Đề thi"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnVatLy1LoiKhuyen"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_button"
+        android:text="Lời khuyên"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

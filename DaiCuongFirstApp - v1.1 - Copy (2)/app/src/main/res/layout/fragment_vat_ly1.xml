@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.vatly1.VatLy1Fragment"
+    android:id="@+id/vatlya1">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="VẬT LÝ 1"
+        android:textColor="#D6C06C"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btnVatLy1LyThuyet"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_rim"
+        android:text="Lý thuyết"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnVatLy1BaiTap"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_rim"
+        android:textColor="#FFFFFF"
+        android:text="Bài tập" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnVatLy1TracNghiem"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_rim"
+        android:textColor="#FFFFFF"
+        android:text="Trắc nghiệm" />
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnVatLy1DeThi"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/art_rim"
+        android:textColor="#FFFFFF"
+        android:text="Đề thi" />
+
+</LinearLayout>
